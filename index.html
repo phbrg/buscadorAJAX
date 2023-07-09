@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <title>Pesquisa pessoas</title>
+        <link rel="shortcut icon" href="#" type="image/x-icon">
+    </head>
+    <body>
+
+        <main>
+            <div id="pesquisa">
+
+                <input type="text" name="search" id="search" placeholder="Digite um dado">
+                <button onclick="pesquisar()">Pesquisar pessoa</button>
+
+            </div>
+
+            <div id="saida">
+
+                <ul id="pai">
+                    <p class="error"></p>
+                    <li id="Nome"></li>
+                    <li id="Email"></li>
+                    <li id="Salario"></li>
+                    <li id="Estado"></li>
+                    <li id="Empresa"></li>
+                    <li id="Idade"></li>
+                    <li id="Sexo"></li>
+                    <li id="Cpf"></li>
+                </ul>
+
+            </div>
+
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
